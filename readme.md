@@ -24,12 +24,12 @@ dwave config create  # Enter your API token when prompted
 
 Run with a number to factor:
 ```bash
-python factor_d.py 77
+python factor-d.py 77
 ```
 
 Optional arguments:
 ```bash
-python factor_d.py 77 --max-bits 12  # For larger numbers
+python factor-d.py 77 --max-bits 12  # For larger numbers
 ```
 
 ## Requirements
